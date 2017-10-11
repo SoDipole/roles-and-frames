@@ -1,0 +1,57 @@
+<!DOCTYPE frameset>
+<frameset>
+  <predicate lemma="осуществить">
+    <roleset id="осуществить.01" name="осуществить">
+      <aliases>
+        <alias framenet="" pos="v" verbnet="">осуществить</alias>
+      </aliases>
+      <roles>
+        <role descr="Агенс; кто/что осуществляет" f="" n="0">
+        </role>
+        <role descr="Результат; осуществляет что" f="" n="1">
+        </role>
+      </roles>
+      <example name="Все участники" src="" type="">
+        <text>Он осуществил свое намерение.</text>
+        <arg f="" n="0">Он</arg>
+        <rel f="">осуществил</rel>
+        <arg f="" n="1">свое намерение</arg>
+      </example>
+    </roleset>
+	<roleset id="осуществить.02" name="осуществить действие">
+      <aliases>
+        <alias framenet="" pos="v" verbnet="">осуществить</alias>
+      </aliases>
+      <roles>
+        <role descr="Агенс; кто/что осуществляет" f="" n="0">
+        </role>
+        <role descr="Содержание действия; осуществляет что" f="" n="1">
+        </role>
+      </roles>
+      <example name="Все участники" src="" type="">
+        <text>Рабочие осуществляют контроль за работой банков.</text>
+        <arg f="" n="0">Рабочие</arg>
+        <rel f="">осуществляют</rel>
+        <arg f="" n="1">контроль за работой банков</arg>
+      </example>
+    </roleset>
+	<roleset id="осуществить.03" name="осуществить себя">
+      <aliases>
+        <alias framenet="" pos="v" verbnet="">осуществить</alias>
+      </aliases>
+      <roles>
+        <role descr="Тема; кто осуществляет себя" f="" n="0">
+        </role>
+        <role descr="Статус; осуществляет как кого" f="" n="1">
+        </role>
+      </roles>
+      <example name="Все участники" src="" type="">
+        <text>Он не осуществил себя как писателя.</text>
+        <arg f="" n="0">Он</arg>
+        <rel f="">не осуществил</rel>
+		<rel f="">себя</rel>
+        <arg f="" n="1">как писателя</arg>
+      </example>
+    </roleset>
+  </predicate>
+</frameset>
