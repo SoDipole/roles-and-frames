@@ -1,0 +1,22 @@
+<!DOCTYPE frameset>
+<frameset>
+  <predicate lemma="подарок">
+    <roleset id="подарок.01" name="подарок">
+      <aliases>
+        <alias framenet="" pos="n" verbnet="">подарок</alias>
+      </aliases>
+      <roles>
+        <role descr="Конечный посессор; кто получает подарок" f="" n="0">
+        </role>
+        <role descr="Исходный посессор; кто дарит подарок" f="" n="1">
+        </role>>
+      </roles>
+      <example name="Базовые участники" src="НКРЯ" type="">
+        <text>Вернувшись с фронта, он привез подарок маме.</text>
+        <arg f="" n="1">он</arg>
+        <rel f="">подарок</rel>
+        <arg f="" n="0">маме</arg>
+      </example>
+    </roleset>
+  </predicate>
+</frameset>
