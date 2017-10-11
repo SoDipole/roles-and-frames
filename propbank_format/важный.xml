@@ -1,0 +1,27 @@
+<!DOCTYPE frameset>
+<frameset>
+  <predicate lemma="важный">
+    <roleset id="важный.01" name="важный">
+      <aliases>
+        <alias framenet="" pos="j" verbnet="">важный</alias>
+      </aliases>
+      <roles>
+        <role descr="Тема; важное что" f="" n="0">
+        </role>
+		<role descr="Бенефициант; важный для чего/кого" f="" n="1">
+        </role>
+      </roles>
+      <example name="Базовые участники" src="НКРЯ" type="">
+        <text>Вот тут я подвожу к очень важной мысли.</text>
+        <rel f="">важной</rel>
+        <arg f="" n="0">мысли</arg>
+      </example>
+	  <example name="Все участники" src="НКРЯ" type="">
+        <text>Думаю, что вопрос важный для формирования подростка.</text>
+        <arg f="" n="0">вопрос</arg>
+		<rel f="">важный</rel>
+		<arg f="" n="1">для формирования подростка</arg>
+      </example>
+    </roleset>
+  </predicate>
+</frameset>
