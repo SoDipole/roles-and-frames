@@ -1,0 +1,19 @@
+<!DOCTYPE frameset>
+<frameset>
+  <predicate lemma="конец">
+    <roleset id="конец.01" name="конец">
+      <aliases>
+        <alias framenet="" pos="n" verbnet="">конец</alias>
+      </aliases>
+      <roles>
+        <role descr="Тема; конец чего" f="" n="0">
+        </role>
+      </roles>
+      <example name="Базовые участники" src="НКРЯ" type="">
+        <text>В конце пути Петр Евсеевич нечаянно зашёл на вокзал</text>
+        <rel f="">конце</rel>
+        <arg f="" n="0">пути</arg>
+      </example>
+    </roleset>
+  </predicate>
+</frameset>
