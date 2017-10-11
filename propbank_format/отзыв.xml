@@ -1,0 +1,22 @@
+<!DOCTYPE frameset>
+<frameset>
+  <predicate lemma="отзыв">
+    <roleset id="отзыв.01" name="отзыв">
+      <aliases>
+        <alias framenet="" pos="n" verbnet="">отзыв</alias>
+      </aliases>
+      <roles>
+        <role descr="Говорящий; чей отзыв" f="" n="0">
+        </role>
+        <role descr="Предмет высказывания; отзыв на что" f="" n="1">
+        </role>>
+      </roles>
+      <example name="Базовые участники" src="НКРЯ" type="">
+        <text>Странно, что никто не написал своего отзыва к этому фильму.</text>
+        <arg f="" n="0">никто</arg>
+        <rel f="">отзыва</rel>
+        <arg f="" n="1">к этому фильму</arg>
+      </example>
+    </roleset>
+  </predicate>
+</frameset>
