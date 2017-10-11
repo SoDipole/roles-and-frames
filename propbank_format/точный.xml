@@ -1,0 +1,19 @@
+<!DOCTYPE frameset>
+<frameset>
+  <predicate lemma="точный">
+    <roleset id="точный.01" name="точный">
+      <aliases>
+        <alias framenet="" pos="n" verbnet="">точный</alias>
+      </aliases>
+      <roles>
+        <role descr="Тема; точное что" f="" n="0">
+        </role>
+      </roles>
+      <example name="Базовые участники" src="НКРЯ" type="">
+        <text>Точные измерения отодвигаются на второй план, а критерием выбора становится субъективная оценка.</text>
+        <rel f="">Точные</rel>
+        <arg f="" n="0">измерения</arg>
+      </example>
+    </roleset>
+  </predicate>
+</frameset>
