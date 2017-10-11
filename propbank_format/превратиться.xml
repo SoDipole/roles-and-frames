@@ -1,0 +1,71 @@
+<!DOCTYPE frameset>
+<frameset>
+  <predicate lemma="превратиться">
+    <roleset id="превратиться.01" name="превратиться">
+      <aliases>
+        <alias framenet="" pos="v" verbnet="">превратиться</alias>
+      </aliases>
+      <roles>
+        <role descr="Пациенс; кто/что превращается" f="" n="0">
+        </role>
+        <role descr="Конечное стостояние; превращается из чего" f="" n="1">
+        </role>
+        <role descr="Начальное состояние; превращается во что" f="" n="2">
+        </role>
+      </roles>
+      <example name="Базовые участники" src="" type="">
+        <text>Вода превратилась в лед.</text>
+        <arg f="" n="0">Вода</arg>
+        <rel f="">превратилась</rel>
+        <arg f="" n="1">в лед</arg>
+      </example>
+      <example name="Все участники" src="" type="">
+        <text>Рынок печатной информации превратился из «рынка продавца» в «рынок покупателя».</text>
+        <arg f="" n="0">Рынок печатной информации</arg>
+        <rel f="">превратился</rel>
+        <arg f="" n="2">из «рынка продавца»</arg>
+        <arg f="" n="1">в «рынок покупателя»</arg>
+      </example>
+    </roleset>
+	<roleset id="превратиться.02" name="С инструментом">
+      <aliases>
+        <alias framenet="" pos="v" verbnet="">превратиться</alias>
+      </aliases>
+      <roles>
+        <role descr="Пациенс; кто/что превращается" f="" n="0">
+        </role>
+        <role descr="Конечное стостояние; превращается из чего" f="" n="1">
+        </role>
+        <role descr="Начальное состояние; превращается во что" f="" n="2">
+        </role>
+		<role descr="Инструмент; превращается с помощью чего" f="" n="3">
+        </role>
+      </roles>
+      <example name="С инструментом" src="" type="">
+        <text>Через Петербург превратилась Русь в Великую Россию.</text>
+		<arg f="" n="3">Через Петербург</arg>
+		<rel f="">превратилась</rel>
+        <arg f="" n="0">Русь</arg>
+        <arg f="" n="1">в Великую Россию</arg>
+      </example>
+    </roleset>
+	<roleset id="превратиться.03" name="Сосредоточиться на способе восприятия">
+      <aliases>
+        <alias framenet="" pos="v" verbnet="">превратиться</alias>
+      </aliases>
+      <roles>
+        <role descr="Субъект; кто/что превращается" f="" n="0">
+        </role>
+        <role descr="Часть субъекта восприятия; превращается во что" f="" n="1">
+        </role>
+      </roles>
+      <example name="Все участники" src="" type="">
+        <text>Он весь превратился в слух.</text>
+		<arg f="" n="3">Он</arg>
+		<arg f="" n="m">весь</arg>
+		<rel f="">превратился</rel>
+        <arg f="" n="1">в слух</arg>
+      </example>
+    </roleset>
+  </predicate>
+</frameset>
